@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Lucy the bot</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+  </head>
+  <body>
+    <h1  style="text-align:center">Say hi</h1>
+      <div class="chat">
+          <div class="chat-title">
+            <h1>Lucy</h1>
+            <h2>chatboat</h2>
+            <figure class="avatar">
+              <img src="chatboat.jpg" />
+            </figure>
+          </div>
+          <div class="messages">
+              <div class="messages-content" id="messages-content" style="position:relative; top:0; left:0;">
+              </div>
+          </div>
+          <div class="message-box">
+              <form id="form" action="">
+                  <input type="text" id="text-input"  class="message-input" autocomplete="off"  placeholder="Type message..."/>
+                  <button class="message-submit">Send</button>
+                </form>
+          </div>
+      
+        </div>
+        <div class="bg"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

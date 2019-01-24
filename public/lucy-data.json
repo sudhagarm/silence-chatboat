@@ -1,0 +1,16 @@
+[
+  { 
+    "questione" : [ "tell me the use of you", "tell me the use of lusy" ],
+    "answer": " ",
+    "key": [ "lucy","you","use","tell" ],
+    "not" : ["don't"],
+    "notAnswer" : ["why are you angry with me"]
+  },
+  { 
+    "questione" : [ "tell me the use of you", "tell me the use of lusy" ],
+    "answer": " ",
+    "key": [ "lucy","you","use","tell" ],
+    "not" : ["don't"],
+    "notAnswer" : ["why are you angry with me"]
+  }
+]
